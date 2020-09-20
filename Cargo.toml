@@ -20,7 +20,7 @@ unsafe-str-decode = []
 
 [lib]
 name ="maxminddb"
-crate_type = ["lib", "dylib", "staticlib"]
+# crate_type = ["lib", "dylib", "staticlib"]
 path = "src/maxminddb/lib.rs"
 
 [dependencies]
